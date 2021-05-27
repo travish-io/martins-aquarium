@@ -1,0 +1,70 @@
+header {
+  text-align: center;
+}
+.main {
+  display: flex;
+  border: 3px solid black;
+  padding: 0.5em;
+  /* flex-flow: row wrap; */
+}
+.fishStuff {
+  display: flex;
+  border: 2px solid black;
+  padding: 0.5em;
+  /* text-align: center; */
+}
+.fishList {
+  display: flex;
+  border: 1px solid black;
+  padding: 0.5em;
+  flex-flow: row wrap;
+  text-align: left;
+  /* width: 50%; */
+  flex: 4;
+}
+.fish-img {
+  height: 125px;
+  width: 150px;
+}
+.fish {
+  border: 0.5px solid black;
+  margin: 0.5em;
+  padding: 0.5em;
+  flex: auto;
+  align-self: flex-start;
+}
+.quotes {
+  display: flex;
+  border: black 1px solid;
+  flex-flow: column wrap;
+  flex: 3;
+  text-align: left;
+}
+.quote {
+  border: 0.5px solid black;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.locations {
+  border: 1px solid black;
+  display: flex;
+  flex: 2;
+  flex-flow: column wrap;
+}
+.loc {
+  border: 0.5px solid black;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+aside {
+  border: 1px solid black;
+  display: flex;
+  align-self: stretch;
+  flex: 1;
+}
+.tip {
+  border: 0.5px solid black;
+  margin: 0.5em;
+  padding: 0.5em;
+}

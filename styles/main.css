@@ -1,0 +1,20 @@
+header {
+  width: auto;
+  text-align: center;
+}
+.container-list div,
+.container-quotes div,
+.container-loc div {
+  border: 1px solid black;
+}
+.container-list {
+  display: flex;
+}
+
+.container-quotes {
+  display: flex;
+}
+
+.container-loc {
+  display: flex;
+}
